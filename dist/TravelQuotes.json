@@ -1,0 +1,802 @@
+[
+    {
+        "_id": "88dc0a43-d2fd-49a9-b71f-b24769b3d61f",
+        "quote": "Wherever you go, go with all your heart.",
+        "author": "Confucius",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2367d0ee-0d11-4961-a720-f8279c07fde4",
+        "quote": "To travel is to live.",
+        "author": "Hans Christian Andersen",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2a6ef61a-8364-4f29-b9d9-c899532cb0b8",
+        "quote": "I don’t know where I am going, but I am on my way.",
+        "author": "Voltaire",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "52512215-9062-4531-a340-3bb72cc48765",
+        "quote": "If you think adventure is dangerous, try routine; it is lethal.",
+        "author": "Paulo Coelho",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "1fa5bd66-685c-47ac-b04d-3afd9b3a1a96",
+        "quote": "The biggest adventure you can ever take is to live the life of your dreams.",
+        "author": "Oprah Winfrey",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "ea0c92b0-a78c-4fa9-92b6-cf3359828c82",
+        "quote": "I haven’t been everywhere, but it’s on my list.",
+        "author": "Susan Sontag",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "6da645d2-f778-42c3-95eb-1f02d8081c9a",
+        "quote": "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover.",
+        "author": "H. Jackson Brown Jr.",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "e049ea09-3fab-4618-9363-95428b4d0280",
+        "quote": "Experience, travel – these are an education in themselves.",
+        "author": "Euripides",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "6ff0bbec-fcbb-40f4-8455-4f7f52819c67",
+        "quote": "Not all who wander are lost.",
+        "author": "J. R. R. Tolkien",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3872817d-e6f2-4c94-bb2e-374a9aaf9849",
+        "quote": "Not until we are lost do we begin to understand ourselves.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "693038bb-b5ce-4e4d-8091-cc28da9952e3",
+        "quote": "Listen – are you breathing just a little, and calling it a life?",
+        "author": "Mary Oliver",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "a11e6ea7-3172-4292-9efa-4b4dd7d2d8f7",
+        "quote": "I always wonder why birds choose to stay in the same place when they can fly anywhere on the earth, then I ask myself the same question.",
+        "author": "Harun Yahya",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "da6596ca-f51a-4c7f-818f-9ca1a18fb1a2",
+        "quote": "Why do you go away? So that you can come back. So that you can see the place you came from with new eyes and extra colors. And the people there see you differently, too. Coming back to where you started is not the same as never leaving.",
+        "author": "Terry Pratchett",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "d75bf2d8-83ee-44a0-bfff-c0e4dddf38b0",
+        "quote": "Man cannot discover new oceans unless he has the courage to lose sight of the shore.",
+        "author": "André Gide",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "83924c78-0dea-4e79-8d64-27b10d492800",
+        "quote": "A journey is best measured in friends, not in miles.",
+        "author": "Tim Cahill",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "b5a03ec5-e80d-4b78-a007-c115ae2cae36",
+        "quote": "Once a year go somewhere you have never been before.",
+        "author": "Dalai Lama XIV",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "516b49c6-1890-41d5-980b-24832b0b075e",
+        "quote": "Stuff your eyes with wonder, live as if you’d drop dead in ten seconds. See the world. It’s more fantastic than any dream made or paid for in factories.",
+        "author": "Ray Bradbury",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "d003b93b-2f1c-467e-ab3e-1f817663f673",
+        "quote": "Travel changes you. As you move through this life and this world you change things slightly, you leave marks behind, however small. And in return, life – and travel – leaves marks on you. Most of the time, those marks – on your body or on your heart – are beautiful. Often, though, they hurt.",
+        "author": "Anthony Bourdain",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "c287ff4c-b829-4910-984e-61b5c2314d1b",
+        "quote": "To move, to breathe, to fly, to float, To gain all while you give, To roam the roads of lands remote, To travel is to live.",
+        "author": "Hans Christian Andersen",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "8b2fff13-8a83-4da0-b412-c24b04b31a79",
+        "quote": "If I’m an advocate for anything, it’s to move. As far as you can, as much as you can. Across the ocean, or simply across the river. The extent to which you can walk in someone else’s shoes or at least eat their food, it’s a plus for everybody. Open your mind, get up off the couch, move.",
+        "author": "Anthony Bourdain",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "105b0ef5-9ee3-4d6f-a985-1798ad6467a7",
+        "quote": "The very basic core of a man’s living spirit is his passion for adventure. The joy of life comes from our encounters with new experiences, and hence there is no greater joy than to have an endlessly changing horizon, for each day to have a new and different sun.",
+        "author": "Christopher McCandless",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "83497a03-9f56-449e-99e4-a9ddda7147f9",
+        "quote": "One must travel, to learn.",
+        "author": "Mark Twain",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "aa64542c-bfb2-4eed-901e-7e5255046c73",
+        "quote": "When setting out on a journey do not seek advice from someone who never left home.",
+        "author": "Rumi",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "b04e5460-5cbb-4a65-96dc-b32aa5eeba72",
+        "quote": "The world is big and I want to have a good look at it before it gets dark.",
+        "author": "John Muir",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "a3d4fcfa-c9bc-430f-8a2e-8ea860995449",
+        "quote": "If you don't know where you are going, you'll end up someplace else.",
+        "author": "Yogi Berra",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2a043a38-43d7-4812-86f4-d059746e1392",
+        "quote": "The world is not in your books and maps, it’s out there.",
+        "author": "J. R. R. Tolkien",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "373bf8ed-552d-49ac-ad47-4d2738331c21",
+        "quote": "Enjoy the journey as much as the destination.",
+        "author": "Marshall Sylver",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "53d257b0-e278-4485-b625-c8c6f7274e91",
+        "quote": "Nothing behind me, everything ahead of me, as is ever so on the road.",
+        "author": "Jack Kerouac",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "cacb2e76-f806-44c4-98de-d4d89b69131e",
+        "quote": "The journey is what brings us happiness, not the destination.",
+        "author": "Dan Millman",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "fc67a9d3-60e3-4a7d-b4a4-1d254574dd58",
+        "quote": "Country roads, take me home, to the place I belong.",
+        "author": "John Denver",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "f0e10f48-5a27-490a-be5f-2e277e3e95d1",
+        "quote": "We began as wanderers, and we are wanderers still.",
+        "author": "Carl Sagan",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "89387374-f787-4fd6-965a-12493fbab3ae",
+        "quote": "Between every two pines is a doorway to a new world.",
+        "author": "John Muir",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "f02c79bc-25df-4cf7-9e38-6111cf24b930",
+        "quote": "It’s a dangerous business, Frodo, going out your door. You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to.",
+        "author": "J. R. R. Tolkien",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "b40ab5a3-5ff5-4b4a-af5a-5ccd87aa0bcc",
+        "quote": "I’m in love with cities I’ve never been to and people I’ve never met.",
+        "author": "Melody Truong",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "89aafa54-ba46-4295-a0e6-58644740bbde",
+        "quote": "The journey is the destination.",
+        "author": "Dan Eldon",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3d71a64d-3ecc-4b6d-a07a-d0f4443f24bf",
+        "quote": "Live in the sunshine, swim the sea, drink the wild air.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "945aaf8a-cfbe-463a-9cc3-bc3679a39186",
+        "quote": "There was nowhere to go but everywhere, so just keep on rolling under the stars.",
+        "author": "Jack Kerouac",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "21a9b285-9eab-48f6-bf12-fc0a8ce3a644",
+        "quote": "Experience is not what happens to a man; it is what a man does with what happens to him.",
+        "author": "Aldous Huxley",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "d4ba46e4-58d4-44fb-a227-20cc2c2b402d",
+        "quote": "Without geography you’re nowhere.",
+        "author": "Jimmy Buffett",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "6bed1f90-cfd5-48c3-8406-9f37d860db85",
+        "quote": "A journey of 1000 miles begins with one step.",
+        "author": "Laozi",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "de9760b8-3d9f-46c9-b3a3-4512db4bc360",
+        "quote": "If you are lucky enough to have lived in Paris as a young man, then wherever you go for the rest of your life, it stays with you, for Paris is a moveable feast.",
+        "author": "Ernest Hemingway",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "7c06b9f8-0d57-4102-983e-76916f275c9e",
+        "quote": "Make voyages. Attempt them. There’s nothing else.",
+        "author": "Tennessee Williams",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "303eaced-e280-405c-b34a-0e2920c5211c",
+        "quote": "Buy the ticket, take the ride.",
+        "author": "Hunter S. Thompson",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3854f900-5374-4672-b69b-93699530c470",
+        "quote": "Happy trails to you, until we meet again.",
+        "author": "Dale Evans",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "0101ba1e-6a31-458e-b021-506183c8d561",
+        "quote": "Oh the places you’ll go! There is fun to be done!",
+        "author": "Dr. Seuss",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "059a36c8-e500-4c0a-b7b6-d98003bcf157",
+        "quote": "Paris is always a good idea.",
+        "author": "Audrey Hepburn",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "cd4dabe1-2450-4f75-a0e4-30c492425db6",
+        "quote": "Keep close to Nature’s heart... and break clear away, once in awhile, and climb a mountain or spend a week in the woods. Wash your spirit clean.",
+        "author": "John Muir",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3997a288-eaec-4d31-9723-47bfc6218f86",
+        "quote": "Since life is short and the world is wide, the sooner you start exploring it, the better.",
+        "author": "Simon Raven",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "83773e2e-acdc-4748-8943-8139049186e6",
+        "quote": "When in Rome, do as the Romans do.",
+        "author": "Ambrose",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "36f1a3c6-fd9a-4c3b-8f66-d17ed6466133",
+        "quote": "One day's exposure to mountains is better than a cartload of books.",
+        "author": "John Muir",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "ad05dff5-06a6-447b-af2a-c79ce93f75eb",
+        "quote": "What a long strange trip it’s been.",
+        "author": "— Jerry Garcia",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "717fc53d-5d1f-4731-841c-118fc33077a6",
+        "quote": "To travel hopefully is a better thing than to arrive.",
+        "author": "— Robert Louis Stevenson",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2ef75693-1c48-4344-95fb-240515856c27",
+        "quote": "The balloons only have one life and the only way of finding out whether they work is to attempt to fly around the world.",
+        "author": "— Richard Branson",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "d72dcb81-601e-46b5-af1f-4506555c7a63",
+        "quote": "The benefits of studying abroad are almost endless.",
+        "author": "— Michelle Obama",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "b48d0c96-c01b-4bbd-8039-55b2ea392fbd",
+        "quote": "Tourism is the biggest industry in the world.",
+        "author": "— Martin Parr",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "4ec6568c-b333-4f71-82d0-fbd3d0c26124",
+        "quote": "The adrenaline and stress of an adventure are better than a thousand peaceful days.",
+        "author": "Paulo Coelho",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "304a5d90-a08e-4004-adab-ab76405407d6",
+        "quote": "We are what our thoughts have made us; so take care about what you think. Words are secondary. Thoughts live; they travel far.",
+        "author": "— Swami Vivekananda",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "279dc55f-4dd7-4e98-9391-7579df112143",
+        "quote": "Once the travel bug bites there is no known antidote, and I know that I shall be happily infected until the end of my life",
+        "author": "— Michael Palin",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "ecec9ad0-4095-4b6f-8e2e-128abf12dc0d",
+        "quote": "Travel makes one modest. You see what a tiny place you occupy in the world.",
+        "author": "— Gustave Flaubert",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "f3446641-ba9c-4ea9-bb00-cac9b64c35ab",
+        "quote": "The most important thing we can do is inspire young minds and to advance the kind of science, math and technology education that will help youngsters take us to the next phase of space travel.",
+        "author": "— John Glenn",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "e7f36b7f-5631-4336-b50b-1060eff7fa61",
+        "quote": "Travel is fatal to prejudice, bigotry, and narrow-mindedness.",
+        "author": "Mark Twain",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "1e6a0a8a-6c02-4b1e-ad5c-4ac2a86992b6",
+        "quote": "How we spend our days is, of course, how we spend our lives.",
+        "author": "— Annie Dillard",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "e0686f2d-5ac8-4a42-8682-5cd4abc93bdf",
+        "quote": "Wherever you go becomes a part of you somehow.",
+        "author": "— Anita Desai",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3c436b8a-ddee-46e5-add5-22451f4cba41",
+        "quote": "Nature is the art of God.",
+        "author": "— Dante Alighieri",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2d4306c7-0be9-41c7-8009-ced92c98e4ba",
+        "quote": "We live in a wonderful world that is full of beauty, charm and adventure. There is no end to the adventures that we can have if only we seek them with our eyes open.",
+        "author": "— Jawaharlal Nehru",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "8504838b-5489-4cd6-843c-4c4590b12400",
+        "quote": "To travel is to discover that everyone is wrong about other countries.",
+        "author": "Aldous Huxley",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "ba454744-6612-4821-aec9-a04d3cf1f89b",
+        "quote": "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
+        "author": "— Marcel Proust",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "1254e546-a97e-46ab-a8dd-84820eb84608",
+        "quote": "There is nothing like returning to a place that remains unchanged to find the ways in which you yourself have altered.",
+        "author": "— Nelson Mandela",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "54140eaa-e3ed-4091-847a-dbd8939d04a5",
+        "quote": "If you wish to travel far and fast, travel light. Take off all your envies, jealousies, unforgiveness, selfishness and fears.",
+        "author": "— Cesare Pavese",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "6b82a154-7fd4-47c1-917b-f93d12d4be1a",
+        "quote": "The purpose of education is to replace an empty mind with an open one.",
+        "author": "— Malcolm S. Forbes",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "66e98572-1422-4f52-b2ea-1994d8b11d47",
+        "quote": "In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they’re still beautiful.",
+        "author": "— Alice Walker",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "203ddaaf-26d4-49b5-97d4-89a2bc775ec5",
+        "quote": "Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our people need it sorely on these accounts. Broad, wholesome, charitable views of men and things cannot be acquired by vegetating in one little corner of the earth all one’s lifetime.",
+        "author": "Mark Twain",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "8c048315-bc67-472b-8c72-a85638d401de",
+        "quote": "No one realizes how beautiful it is to travel until he comes home and rests his head on his old, familiar pillow.",
+        "author": "— Lin Yutang",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "65c7ccaf-d38c-48ad-86bf-55eddad5e2d7",
+        "quote": "A lie can travel half way around the world while the truth is putting on its shoes.",
+        "author": "— Charles H. Spurgeon",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "af06c98b-d5e3-42c5-95f3-b82407ece65f",
+        "quote": "I have found out that there ain't no surer way to find out whether you like people or hate them than to travel with them.",
+        "author": "Mark Twain",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "76574949-ef2f-46b3-a26c-677659de94ae",
+        "quote": "I travel not to go anywhere, but to go. I travel for travel’s sake. The great affair is to move.",
+        "author": "— Robert Louis Stevenson",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "1075f079-4ae6-4c79-87b6-a84ee3c28d39",
+        "quote": "If adventures will not befall a young lady in her own village, she must seek them abroad.",
+        "author": "— Jane Austen",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2a4ec97e-dfc2-4ecc-a146-55967ff90219",
+        "quote": "What is that feeling when you’re driving away from people and they recede on the plain till you see their specks dispersing? – it’s the too-huge world vaulting us, and it’s good-bye. But we lean forward to the next crazy venture beneath the skies.",
+        "author": "Jack Kerouac",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "17ff3225-5e90-4eb6-9b14-ec128860f166",
+        "quote": "Travel far enough, you meet yourself.",
+        "author": "— David Mitchell",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "24cf5e6c-20b6-4d37-824f-d268a16c5fd5",
+        "quote": "Travel is never a matter of money but of courage.",
+        "author": "Paulo Coelho",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "5e7d5ab8-ee44-41ec-a7be-6580ee5fa5ac",
+        "quote": "Please be a traveler, not a tourist. Try new things, meet new people, and look beyond what’s right in front of you. Those are the keys to understanding this amazing world we live in.",
+        "author": "— Andrew Zimmern",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "34fed892-b2ea-4f7b-a147-13b49dfa684a",
+        "quote": "The journey of a thousand miles begins with a single step.",
+        "author": "— Lao Tzu",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3648c2dd-4669-4559-a5b7-763ad4f3072c",
+        "quote": "Travel light, live light, spread the light, be the light.",
+        "author": "— Yogi Bhajan",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "01f1fcc7-2567-4791-87f6-fbe08a09828f",
+        "quote": "Now, bring me that horizon.",
+        "author": "— Johnny Depp",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "734f780d-4128-4ea0-acb2-312328452f1d",
+        "quote": "No matter how far you travel, you can never get away from yourself.",
+        "author": "— Haruki Murakami",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "cb18caa5-95e3-4418-8081-f8c3f3decbc3",
+        "quote": "A good traveler has no fixed plans and is not intent on arriving.",
+        "author": "— Lao Tzu",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "2865eaa3-06f6-42f2-b481-0436f6a1db13",
+        "quote": "I read; I travel; I become.",
+        "author": "— Derek Walcott",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "5d884eaf-94f2-4ddf-964e-b792ef9c7430",
+        "quote": "You don’t have to travel, but I find extended travel to be a helpful tool for reexamining yourself and the constraints you’ve artificially placed on your life. It’s easy to believe everything has to be done one way if you’re always in one place around the same people.",
+        "author": "— Tim Ferriss",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "e7bcd10d-0510-4126-8816-dd83014e5393",
+        "quote": "The wise traveler learns not to repeat successes but tries new places all the time.",
+        "author": "— Paul Fussell",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "6b1be47a-9325-4b6f-8ca6-bb32f35fb403",
+        "quote": "If you want to go fast, go alone. If you want to go far, go together.",
+        "author": "— African Proverb",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "3909b866-45c5-4527-95dc-d2408f814b8b",
+        "quote": "Though we travel the world over to find the beautiful, we must carry it with us, or we find it not.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "bef2d026-cdd7-4683-a4ee-67280a1604ef",
+        "quote": "Sometimes you have to travel a long way to find what is near.",
+        "author": "Paulo Coelho",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "0df1c809-aaa8-4f60-a3c0-7a1397e295f3",
+        "quote": "Travel brings power and love back into your life.",
+        "author": "Rumi",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "a228a930-cd96-4e42-9c1c-467d319b30e9",
+        "quote": "Little by little, one travels far.",
+        "author": "J. R. R. Tolkien",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "765d2b1d-a12d-467f-9cf4-42057aff3d77",
+        "quote": "The world is waiting for you. Good luck. Travel safe. Go!",
+        "author": "— Phil Keoghan",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "5bf16527-3625-439e-98c4-b2a437fc2108",
+        "quote": "A traveler I am, and a navigator, and every day I discover a new region within my soul.",
+        "author": "— Khalil Gibran",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "dcf10fb7-3bfc-495c-bd60-37103de691b4",
+        "quote": "The world is a book and those who do not travel read only one page.",
+        "author": "— Saint Augustine",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "d47d2adf-cda8-4c35-9718-2a3b9e042040",
+        "quote": "To travel is to take a journey into yourself.",
+        "author": "— Danny Kaye",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "92a0709a-5600-491f-8d11-e0ca6a5db7ca",
+        "quote": "Live, travel, adventure, bless, and don’t be sorry.",
+        "author": "Jack Kerouac",
+        "tags": [
+            "travel"
+        ]
+    },
+    {
+        "_id": "160aba77-ca14-485c-8839-5ad158c9e5eb",
+        "quote": "When you travel, remember that a foreign country is not designed to make you comfortable. It is designed to make its own people comfortable.",
+        "author": "— Clifton Fadiman",
+        "tags": [
+            "travel"
+        ]
+    }
+]
