@@ -29,8 +29,8 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm ">
-      <div className="bg-white container mx-auto flex justify-between items-center p-4">
+    <nav className="fixed bg-white top-0 left-0 w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm">
+      <div className="w-full container mx-auto flex justify-between items-center p-4">
         {/* Left Side - Logo */}
         <div className="flex items-center space-x-2">
           <Home className="text-primary" size={24} />

@@ -17,7 +17,7 @@ const QuoteCategories = [
   {
     name: 'Friendship Quotes',
     image: friendshipQuotes,
-    path: '/',
+    path: '/friendship',
     gradient: 'from-orange-100 to-amber-100 dark:from-orange-900/30 dark:to-amber-900/30'
   },
   {

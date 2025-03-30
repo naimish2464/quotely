@@ -28,9 +28,33 @@ import SuccessQuotesPage from './components/SuccessQuotesPage';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import QuoteCategoriesFooter from './components/QuoteCategoriesFooter';
+import { useEffect } from 'react';
+
+
 
 
 function App() {
+
+  useEffect(() => {
+    const disableRightClick = (event) => event.preventDefault();
+    const disableInspect = (event) => {
+      if (event.ctrlKey && ["u", "s", "i", "j", "h"].includes(event.key)) {
+        event.preventDefault();
+      }
+      if (event.key === "F12") {
+        event.preventDefault();
+      }
+    };
+
+    document.addEventListener("contextmenu", disableRightClick);
+    document.addEventListener("keydown", disableInspect);
+
+    return () => {
+      document.removeEventListener("contextmenu", disableRightClick);
+      document.removeEventListener("keydown", disableInspect);
+    };
+  }, []);
+
   return (
     <Router>
       <Navbar />
