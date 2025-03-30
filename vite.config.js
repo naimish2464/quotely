@@ -9,4 +9,7 @@ export default defineConfig({
   server: {
     port: 3000, // Change this to any port you want
   },
+   build: {
+    outDir: 'dist', // Ensure Vercel is deploying from 'dist'
+  },
 })
