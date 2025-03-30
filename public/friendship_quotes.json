@@ -1,0 +1,802 @@
+[
+  {
+    "_id": "FR001",
+    "author": "Oprah Winfrey",
+    "content": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR002",
+    "author": "Walter Winchell",
+    "content": "A real friend is one who walks in when the rest of the world walks out.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR003",
+    "author": "Bob Marley",
+    "content": "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR004",
+    "author": "William Shakespeare",
+    "content": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR005",
+    "author": "Ed Cunningham",
+    "content": "Friends are those rare people who ask how we are and then wait to hear the answer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR006",
+    "author": "Marlene Dietrich",
+    "content": "It\u2019s the friends you can call up at 4 a.m. that matter.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR007",
+    "author": "Jane Austen",
+    "content": "There is nothing I would not do for those who are really my friends.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR008",
+    "author": "Baltasar Graci\u00e1n",
+    "content": "True friendship multiplies the good in life and divides its evils.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR009",
+    "author": "Henry Ford",
+    "content": "My best friend is the one who brings out the best in me.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR010",
+    "author": "Eleanor Roosevelt",
+    "content": "Many people will walk in and out of your life, but only true friends will leave footprints in your heart.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR011",
+    "author": "Jim Henson",
+    "content": "There\u2019s not a word yet for old friends who\u2019ve just met.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR012",
+    "author": "Emily Dickinson",
+    "content": "My friends are my estate.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR013",
+    "author": "George Eliot",
+    "content": "What do we live for, if it is not to make life less difficult for each other?",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR014",
+    "author": "Ralph Waldo Emerson",
+    "content": "A friend may well be reckoned the masterpiece of nature.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR015",
+    "author": "Benjamin Franklin",
+    "content": "Be slow in choosing a friend, slower in changing.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR016",
+    "author": "Plato",
+    "content": "Friends have all things in common.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR017",
+    "author": "Cicero",
+    "content": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR018",
+    "author": "Oscar Wilde",
+    "content": "True friends stab you in the front.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR019",
+    "author": "Jean de La Fontaine",
+    "content": "Rare as is true love, true friendship is rarer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR020",
+    "author": "Muhammad Ali",
+    "content": "Friendship is not something you learn in school. But if you haven\u2019t learned the meaning of friendship, you really haven\u2019t learned anything.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR021",
+    "author": "Dalai Lama",
+    "content": "The best way to find yourself is to lose yourself in the service of others.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR022",
+    "author": "Khalil Gibran",
+    "content": "Friendship is always a sweet responsibility, never an opportunity.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR023",
+    "author": "Louisa May Alcott",
+    "content": "Stay is a charming word in a friend\u2019s vocabulary.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR024",
+    "author": "A.A. Milne",
+    "content": "A day without a friend is like a pot without a single drop of honey left inside.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR025",
+    "author": "Tennessee Williams",
+    "content": "Life is partly what we make it, and partly what it is made by the friends we choose.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR026",
+    "author": "Oprah Winfrey",
+    "content": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR027",
+    "author": "Walter Winchell",
+    "content": "A real friend is one who walks in when the rest of the world walks out.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR028",
+    "author": "Bob Marley",
+    "content": "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR029",
+    "author": "William Shakespeare",
+    "content": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR030",
+    "author": "Ed Cunningham",
+    "content": "Friends are those rare people who ask how we are and then wait to hear the answer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR031",
+    "author": "Marlene Dietrich",
+    "content": "It\u2019s the friends you can call up at 4 a.m. that matter.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR032",
+    "author": "Jane Austen",
+    "content": "There is nothing I would not do for those who are really my friends.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR033",
+    "author": "Baltasar Graci\u00e1n",
+    "content": "True friendship multiplies the good in life and divides its evils.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR034",
+    "author": "Henry Ford",
+    "content": "My best friend is the one who brings out the best in me.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR035",
+    "author": "Eleanor Roosevelt",
+    "content": "Many people will walk in and out of your life, but only true friends will leave footprints in your heart.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR036",
+    "author": "Jim Henson",
+    "content": "There\u2019s not a word yet for old friends who\u2019ve just met.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR037",
+    "author": "Emily Dickinson",
+    "content": "My friends are my estate.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR038",
+    "author": "George Eliot",
+    "content": "What do we live for, if it is not to make life less difficult for each other?",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR039",
+    "author": "Ralph Waldo Emerson",
+    "content": "A friend may well be reckoned the masterpiece of nature.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR040",
+    "author": "Benjamin Franklin",
+    "content": "Be slow in choosing a friend, slower in changing.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR041",
+    "author": "Plato",
+    "content": "Friends have all things in common.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR042",
+    "author": "Cicero",
+    "content": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR043",
+    "author": "Oscar Wilde",
+    "content": "True friends stab you in the front.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR044",
+    "author": "Jean de La Fontaine",
+    "content": "Rare as is true love, true friendship is rarer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR045",
+    "author": "Muhammad Ali",
+    "content": "Friendship is not something you learn in school. But if you haven\u2019t learned the meaning of friendship, you really haven\u2019t learned anything.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR046",
+    "author": "Dalai Lama",
+    "content": "The best way to find yourself is to lose yourself in the service of others.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR047",
+    "author": "Khalil Gibran",
+    "content": "Friendship is always a sweet responsibility, never an opportunity.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR048",
+    "author": "Louisa May Alcott",
+    "content": "Stay is a charming word in a friend\u2019s vocabulary.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR049",
+    "author": "A.A. Milne",
+    "content": "A day without a friend is like a pot without a single drop of honey left inside.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR050",
+    "author": "Tennessee Williams",
+    "content": "Life is partly what we make it, and partly what it is made by the friends we choose.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR051",
+    "author": "Oprah Winfrey",
+    "content": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR052",
+    "author": "Walter Winchell",
+    "content": "A real friend is one who walks in when the rest of the world walks out.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR053",
+    "author": "Bob Marley",
+    "content": "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR054",
+    "author": "William Shakespeare",
+    "content": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR055",
+    "author": "Ed Cunningham",
+    "content": "Friends are those rare people who ask how we are and then wait to hear the answer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR056",
+    "author": "Marlene Dietrich",
+    "content": "It\u2019s the friends you can call up at 4 a.m. that matter.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR057",
+    "author": "Jane Austen",
+    "content": "There is nothing I would not do for those who are really my friends.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR058",
+    "author": "Baltasar Graci\u00e1n",
+    "content": "True friendship multiplies the good in life and divides its evils.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR059",
+    "author": "Henry Ford",
+    "content": "My best friend is the one who brings out the best in me.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR060",
+    "author": "Eleanor Roosevelt",
+    "content": "Many people will walk in and out of your life, but only true friends will leave footprints in your heart.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR061",
+    "author": "Jim Henson",
+    "content": "There\u2019s not a word yet for old friends who\u2019ve just met.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR062",
+    "author": "Emily Dickinson",
+    "content": "My friends are my estate.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR063",
+    "author": "George Eliot",
+    "content": "What do we live for, if it is not to make life less difficult for each other?",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR064",
+    "author": "Ralph Waldo Emerson",
+    "content": "A friend may well be reckoned the masterpiece of nature.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR065",
+    "author": "Benjamin Franklin",
+    "content": "Be slow in choosing a friend, slower in changing.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR066",
+    "author": "Plato",
+    "content": "Friends have all things in common.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR067",
+    "author": "Cicero",
+    "content": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR068",
+    "author": "Oscar Wilde",
+    "content": "True friends stab you in the front.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR069",
+    "author": "Jean de La Fontaine",
+    "content": "Rare as is true love, true friendship is rarer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR070",
+    "author": "Muhammad Ali",
+    "content": "Friendship is not something you learn in school. But if you haven\u2019t learned the meaning of friendship, you really haven\u2019t learned anything.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR071",
+    "author": "Dalai Lama",
+    "content": "The best way to find yourself is to lose yourself in the service of others.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR072",
+    "author": "Khalil Gibran",
+    "content": "Friendship is always a sweet responsibility, never an opportunity.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR073",
+    "author": "Louisa May Alcott",
+    "content": "Stay is a charming word in a friend\u2019s vocabulary.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR074",
+    "author": "A.A. Milne",
+    "content": "A day without a friend is like a pot without a single drop of honey left inside.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR075",
+    "author": "Tennessee Williams",
+    "content": "Life is partly what we make it, and partly what it is made by the friends we choose.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR076",
+    "author": "Oprah Winfrey",
+    "content": "Lots of people want to ride with you in the limo, but what you want is someone who will take the bus with you when the limo breaks down.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR077",
+    "author": "Walter Winchell",
+    "content": "A real friend is one who walks in when the rest of the world walks out.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR078",
+    "author": "Bob Marley",
+    "content": "The truth is, everyone is going to hurt you. You just got to find the ones worth suffering for.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR079",
+    "author": "William Shakespeare",
+    "content": "A friend is one that knows you as you are, understands where you have been, accepts what you have become, and still, gently allows you to grow.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR080",
+    "author": "Ed Cunningham",
+    "content": "Friends are those rare people who ask how we are and then wait to hear the answer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR081",
+    "author": "Marlene Dietrich",
+    "content": "It\u2019s the friends you can call up at 4 a.m. that matter.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR082",
+    "author": "Jane Austen",
+    "content": "There is nothing I would not do for those who are really my friends.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR083",
+    "author": "Baltasar Graci\u00e1n",
+    "content": "True friendship multiplies the good in life and divides its evils.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR084",
+    "author": "Henry Ford",
+    "content": "My best friend is the one who brings out the best in me.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR085",
+    "author": "Eleanor Roosevelt",
+    "content": "Many people will walk in and out of your life, but only true friends will leave footprints in your heart.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR086",
+    "author": "Jim Henson",
+    "content": "There\u2019s not a word yet for old friends who\u2019ve just met.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR087",
+    "author": "Emily Dickinson",
+    "content": "My friends are my estate.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR088",
+    "author": "George Eliot",
+    "content": "What do we live for, if it is not to make life less difficult for each other?",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR089",
+    "author": "Ralph Waldo Emerson",
+    "content": "A friend may well be reckoned the masterpiece of nature.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR090",
+    "author": "Benjamin Franklin",
+    "content": "Be slow in choosing a friend, slower in changing.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR091",
+    "author": "Plato",
+    "content": "Friends have all things in common.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR092",
+    "author": "Cicero",
+    "content": "Friendship improves happiness and abates misery, by the doubling of our joy and the dividing of our grief.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR093",
+    "author": "Oscar Wilde",
+    "content": "True friends stab you in the front.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR094",
+    "author": "Jean de La Fontaine",
+    "content": "Rare as is true love, true friendship is rarer.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR095",
+    "author": "Muhammad Ali",
+    "content": "Friendship is not something you learn in school. But if you haven\u2019t learned the meaning of friendship, you really haven\u2019t learned anything.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR096",
+    "author": "Dalai Lama",
+    "content": "The best way to find yourself is to lose yourself in the service of others.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR097",
+    "author": "Khalil Gibran",
+    "content": "Friendship is always a sweet responsibility, never an opportunity.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR098",
+    "author": "Louisa May Alcott",
+    "content": "Stay is a charming word in a friend\u2019s vocabulary.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR099",
+    "author": "A.A. Milne",
+    "content": "A day without a friend is like a pot without a single drop of honey left inside.",
+    "tags": [
+      "Friendship"
+    ]
+  },
+  {
+    "_id": "FR100",
+    "author": "Tennessee Williams",
+    "content": "Life is partly what we make it, and partly what it is made by the friends we choose.",
+    "tags": [
+      "Friendship"
+    ]
+  }
+]

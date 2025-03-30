@@ -1,0 +1,802 @@
+[
+    {
+        "_id": "68fa2339-bd81-4dd4-b071-a19ced522078",
+        "quote": "All good things are wild and free.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "effba190-5d98-4c68-b67f-c5e454ea8a89",
+        "quote": "If you truly love nature, you will find beauty everywhere.",
+        "author": "Vincent van Gogh",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "30146e24-173e-48bc-916c-cfee7d03fcd9",
+        "quote": "Nature does not hurry, yet everything is accomplished.",
+        "author": "Lao Tzu",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "060d7971-0152-4096-afe8-f3ba3d362c4a",
+        "quote": "Nature is pleased with simplicity.",
+        "author": "Isaac Newton",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "66934d0b-9a3e-4161-9d79-4f026253b1ef",
+        "quote": "Study nature, love nature, stay close to nature. It will never fail you.",
+        "author": "Frank Lloyd Wright",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "19a6a60d-1ef0-46ad-b0ef-9a79d6af2257",
+        "quote": "The creation of a thousand forests is in one acorn.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "84c44e7c-a021-4dc9-b0e5-9e0716d526d7",
+        "quote": "Climb the mountains and get their good tidings. Nature’s peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "96478751-0c1d-46de-8403-06c264a0d2df",
+        "quote": "A lake is a landscape's most beautiful and expressive feature. It is Earth's eye; looking into which the beholder measures the depth of his own nature.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "b7cf4a25-2393-41e2-a741-c06d0cc3f10b",
+        "quote": "We don’t own the planet Earth, we belong to it. And we must share it with our wildlife.",
+        "author": "Steve Irwin",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "6f16362b-e19b-414d-a56b-057dc87f4be1",
+        "quote": "There is a pleasure in the pathless woods, There is a rapture on the lonely shore, There is society, where none intrudes, By the deep sea, and music in its roar: I love not man the less, but Nature more.",
+        "author": "George Gordon Byron",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "2ee26de6-6d02-40b3-9e2b-1ece96bed293",
+        "quote": "Keep close to Nature’s heart... and break clear away, once in awhile, and climb a mountain or spend a week in the woods. Wash your spirit clean.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "0de1f3d8-7a3e-417a-84e2-c67f8d03ceb2",
+        "quote": "In nature there is no such thing as waste. In nature nothing is wasted; everything is recycled.",
+        "author": "David Suzuki",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "8e4b2f51-c1d6-4930-9393-b718a95c54a8",
+        "quote": "Earth does not belong to us; we belong to earth. Take only memories, leave nothing but footprints.",
+        "author": "Chief Seattle",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "aa2b7a7b-ccf5-43ef-ba02-708a7e6fb09a",
+        "quote": "It seems to me that the natural world is the greatest source of excitement; the greatest source of visual beauty; the greatest source of intellectual interest. It is the greatest source of so much in life that makes life worth living.",
+        "author": "David Attenborough",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "37796d3c-d364-4709-ba45-11ea80f13562",
+        "quote": "The earth has music for those who listen.",
+        "author": "George Santayana",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "f49f72a6-8780-44c6-b07a-ae0b94d26d54",
+        "quote": "Every morning was a cheerful invitation to make my life of equal simplicity, and I may say innocence, with Nature herself.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "a27df17d-1243-42f5-a7b4-fad0ff1a1915",
+        "quote": "The truth is: the natural world is changing. And we are totally dependent on that world. It provides our food, water and air. It is the most precious thing we have and we need to defend it.",
+        "author": "David Attenborough",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "74f592d0-b004-448f-be7c-5ad2ab7cbc41",
+        "quote": "As long as I live, I’ll hear waterfalls and birds and winds sing. I’ll interpret the rocks, learn the language of flood, storm, and the avalanche. I’ll acquaint myself with the glaciers and wild gardens, and get as near the heart of the world as I can.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "7db3eed1-0dc7-47d9-9a55-7b9d1430aed7",
+        "quote": "Who wouldn't be a mountaineer! Up here all the world's prizes seem nothing.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "bff40d37-2850-4564-b298-c3ea29facc3e",
+        "quote": "I care to live only to entice people to look at Nature's loveliness.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "5cd89364-61b1-4e16-ad3f-3bfa197f0321",
+        "quote": "The earth does not belong to man, man belongs to the earth. All things are connected like the blood that unites us all. Man did not weave the web of life, he is merely a strand in it. Whatever he does to the web, he does to himself.",
+        "author": "Chief Seattle",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "a20d3196-e6dc-462a-8b75-023d795a4ba1",
+        "quote": "The clearest way into the Universe is through a forest wilderness.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "58164394-241f-4842-b21b-9c9a382f37f5",
+        "quote": "We are now in the mountains and they are in us, kindling enthusiasm, making every nerve quiver, filling every pore and cell of us.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "17233726-1690-411f-ba6b-e212ec4e73fc",
+        "quote": "I wandered lonely as a cloud That floats on high o’er vales and hills When all at once I saw a crowd A host of golden daffodils Beside the lake beneath the trees Fluttering and dancing in the breeze.",
+        "author": "William Wordsworth",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "c339bec6-0726-448c-b48a-8577dae31de1",
+        "quote": "Humankind has not woven the web of life. We are but one thread within it. Whatever we do to the web, we do to ourselves. All things are bound together. All things connect.",
+        "author": "Chief Seattle",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "a2624383-ce85-43d6-9f95-85cd6aa07143",
+        "quote": "Going to the mountains is going home.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "6fc27327-31ff-4431-97a4-abc8c98f3066",
+        "quote": "Between every two pines is a doorway to a new world.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "0c8093a1-cd6b-4ec5-b3fb-f0dad0d22dd6",
+        "quote": "An early-morning walk is a blessing for the whole day.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "aa95a6e2-ff45-4256-b1ce-8bdfe207d8fc",
+        "quote": "The wisest and noblest teacher is nature itself.",
+        "author": "Leonardo da Vinci",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "5e3b5b7f-ea48-423f-acbf-8abd17dd0738",
+        "quote": "The earth is what we all have in common.",
+        "author": "Wendell Berry",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "a7d20e10-86f6-4eba-9395-c4a5ba03f664",
+        "quote": "Man is the most insane species. He worships an invisible God and destroys a visible Nature. Unaware that this Nature he’s destroying is this God he’s worshiping.",
+        "author": "Hubert Reeves",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "f59bf888-c96e-4e7b-82e1-d60f9c81eb11",
+        "quote": "When the last tree is cut, the last fish is caught, and the last river is polluted; when to breathe the air is sickening, you will realize, too late, that wealth is not in bank accounts and that you can’t eat money.",
+        "author": "Alanis Obomsawin",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "0e09a640-c28b-4feb-a49e-132e0ecedfb1",
+        "quote": "I only went out for a walk and finally concluded to stay out till sundown, for going out, I found, was really going in.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "b50b6cfe-27e4-4a0f-93e1-be0321290896",
+        "quote": "Adopt the pace of nature: her secret is patience.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "e7c4c636-b71c-4d26-8574-25aa08eb43b9",
+        "quote": "When we try to pick out anything by itself, we find it hitched to everything else in the universe.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "f6bc97fc-d1b3-4756-99ed-032e65c8d2b7",
+        "quote": "There is pleasure in the pathless woods, there is rapture in the lonely shore, there is society where none intrudes, by the deep sea, and music in its roar; I love not Man the less, but Nature more.",
+        "author": "Lord Byron",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "1dec34a2-2ffe-43dc-8c7b-0e28051db9ec",
+        "quote": "What's the use of a fine house if you haven't got a tolerable planet to put it on?",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "f6a3318c-036d-49e5-8c62-3fe3020d1712",
+        "quote": "One day's exposure to mountains is better than a cartload of books.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "c622215e-1e9d-45a1-906a-c5f4a4c55924",
+        "quote": "We only get one planet.",
+        "author": "Leonardo DiCaprio",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "cf6bc293-8d9a-46bb-9742-36c2a3f70b4f",
+        "quote": "Here is your country. Cherish these natural wonders, cherish the natural resources, cherish the history and romance as a sacred heritage, for your children and your children’s children. Do not let selfish men or greedy interests skin your country of its beauty, its riches or its romance.",
+        "author": "Theodore Roosevelt",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "4daea23f-d0f2-4b15-9f00-3f1140897f3e",
+        "quote": "Nature is not a place to visit. It is home.",
+        "author": "Gary Snyder",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "fba9d339-26f4-4a84-b20c-563ee41672dc",
+        "quote": "The wildlife and its habitat cannot speak, so we must and we will.",
+        "author": "Theodore Roosevelt",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "0e81b862-0a2c-4044-9e5f-48f8f70eea63",
+        "quote": "What humans do over the next 50 years will determine the fate of all life on the planet.",
+        "author": "David Attenborough",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "4b2efa49-d670-4397-b819-344e45fa8807",
+        "quote": "In nature, nothing is perfect and everything is perfect. Trees can be contorted, bent in weird ways, and they’re still beautiful.",
+        "author": "Alice Walker",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "344d7ccf-86fb-4989-9155-0a5c079ec704",
+        "quote": "I took a walk in the woods and came out taller than the trees.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "7b3ac4f4-55d7-4baf-9471-e8fe91313d46",
+        "quote": "In nature nothing exists alone.",
+        "author": "Rachel Carson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "96a6f454-f96a-493e-822c-661cef811d8d",
+        "quote": "I am the Lorax. I speak for the trees. I speak for the trees for the trees have no tongues.",
+        "author": "Dr. Seuss",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "3db31f44-5d39-4b69-a03e-1a71a74eb24c",
+        "quote": "The mountains are calling and I must go.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "3b7bcced-211b-4b7e-ab77-1a79bb288e21",
+        "quote": "May your trails be crooked, winding, lonesome, dangerous, leading to the most amazing view. May your mountains rise into and above the clouds.",
+        "author": "Edward Abbey",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "c75613cc-00bb-4c47-a476-3f4ae92e59ae",
+        "quote": "There must be provision for the child to have contact with nature; to understand and appreciate the order, the harmony and the beauty in nature.",
+        "author": "Maria Montessori",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "baa15294-a5b8-40c8-8c32-1cbc5c6893b1",
+        "quote": "In all things of nature there is something of the marvelous.",
+        "author": "— Aristotle",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "7af0fbef-a930-4d82-b60a-6fc5f29e5c42",
+        "quote": "We often forget that WE ARE NATURE. Nature is not something separate from us. So when we say that we have lost our connection to nature, we’ve lost our connection to ourselves.",
+        "author": "— Andy Goldsworthy",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "908c4d64-de10-4f98-84bd-5dbd4859ba0b",
+        "quote": "Ask the beasts and they will teach you the beauty of this earth.",
+        "author": "— Francis of Assisi",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "5d8ee117-a54c-4721-8f42-eb24c3daec6e",
+        "quote": "How glorious a greeting the sun gives the mountains.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "fd7aa957-4d84-4f2d-a4a7-d435f80cccb4",
+        "quote": "Walk as if you are kissing the Earth with your feet.",
+        "author": "— Nhat Hanh",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "30afdc24-e356-4ab0-885f-e283365a3c64",
+        "quote": "I thank you God for this most amazing day, for the leaping greenly spirits of trees, and for the blue dream of sky and for everything which is natural, which is infinite, which is yes.",
+        "author": "— E.E. Cummings",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "3df5f956-e51e-43d5-981a-e217f8048bf8",
+        "quote": "Let Nature be your teacher.",
+        "author": "William Wordsworth",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "0faf4d90-823e-4e93-be85-5ae9087906f4",
+        "quote": "The earth laughs in flowers.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "68d5b141-00a3-4af7-93ba-b16472cb6f14",
+        "quote": "For most of history, man has had to fight nature to survive; in this century he is beginning to realize that, in order to survive, he must protect it.",
+        "author": "— Jacques-Yves Cousteau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "a956894f-895b-4bba-bea5-19ca072f4ebf",
+        "quote": "There are moments when all anxiety and stated toil are becalmed in the infinite leisure and repose of nature.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "39b5e01d-04a9-4ae3-97a5-c0570cfc1ea2",
+        "quote": "No water, no life. No blue, no green.",
+        "author": "— Sylvia A. Earle",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "2345d966-fea5-44eb-b930-8b978f327406",
+        "quote": "No Winter lasts forever, no Spring skips its turn. April is a promise that May is bound to keep, and we know it.",
+        "author": "— Hal Borland",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "427c5370-76f5-4c37-a603-c8ec371b2523",
+        "quote": "The three great elemental sounds in nature are the sound of rain, the sound of wind in a primeval wood, and the sound of outer ocean on a beach.",
+        "author": "— Henry Beston",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "b8b3df4e-1e26-4528-9ba6-66f74357463c",
+        "quote": "Paying attention is a form of reciprocity with the living world, receiving the gifts with open eyes and open heart.",
+        "author": "— Robin Wall Kimmerer",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "fedf16c2-9ce1-4e18-be5a-4b2a3825a8b8",
+        "quote": "The message is simple: love and conserve our wildlife.",
+        "author": "Steve Irwin",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "64e5cc17-59b6-4407-b5ef-375fa9cdc8c3",
+        "quote": "The first law of ecology is that everything is related to everything else.",
+        "author": "— Barry Commoner",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "444a5030-7fa9-4ca0-a4eb-8d8552a7f0b7",
+        "quote": "Tug on anything in nature and you will find it connected to everything else.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "03a1c547-1b86-41cb-90c8-671c041b03d3",
+        "quote": "In every walk with nature one receives far more than he seeks.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "19fce507-b10f-4449-9f61-185137c218a5",
+        "quote": "In some Native languages the term for plants translates to “those who take care of us.",
+        "author": "— Robin Wall Kimmerer",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "ddfa9145-f816-4694-991b-98bc7b07bde8",
+        "quote": "Knowing that Nature never did betray the heart that loved her; ’tis her privilege, through all the years of this our life, to lead from joy to joy.",
+        "author": "William Wordsworth",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "c04f3bad-7ea6-499a-afe2-a5324164e19d",
+        "quote": "Nature-deficit disorder describes the human costs of alienation from nature, among them: diminished use of the senses, attention difficulties, and higher rates of physical and emotional illnesses. The disorder can be detected in individuals, families, and communities.",
+        "author": "— Richard Louv",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "6d3ac557-f596-4a98-b86c-c1dd72561ebd",
+        "quote": "Rivers know this: there is no hurry. We shall get there some day.",
+        "author": "— A. A. Milne",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "2417d478-2f83-4c07-b650-783d6b6fc474",
+        "quote": "Those who flow as life flows know they need no other force.",
+        "author": "Lao Tzu",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "14532c5c-fff2-41e8-9a66-65e0b29daea9",
+        "quote": "We are all connected; To each other, biologically. To the earth, chemically. To the rest of the universe atomically.",
+        "author": "— Neil deGrasse Tyson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "ef2753f2-aab1-463b-b836-079a7d3c20f6",
+        "quote": "The book of nature is written in the language of mathematics.",
+        "author": "— Galileo Galilei",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "10e84da3-5ad6-437b-9b51-f9104356c5d4",
+        "quote": "To see a world in a grain of sand and heaven in a wild flower Hold infinity in the palms of your hand and eternity in an hour.",
+        "author": "— William Blake",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "842701d2-ad7d-4cc4-8826-813e0997c852",
+        "quote": "You can cut all the flowers but you cannot keep spring from coming.",
+        "author": "— Pablo Neruda",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "f0d18acf-4f97-4a24-8e2a-5f61d7165e23",
+        "quote": "The butterfly counts not months but moments, and has time enough.",
+        "author": "— Rabindranath Tagore",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "d4203041-3567-4f25-a636-43b31e1d0eaf",
+        "quote": "Clouds come floating into my life, no longer to carry rain or usher storm, but to add color to my sunset sky.",
+        "author": "— Rabindranath Tagore",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "6c4b91d5-acf6-4da0-a091-8d3f32c43223",
+        "quote": "We do not see nature with our eyes, but with our understandings and our hearts.",
+        "author": "— William Hazlitt",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "b4c32c8f-e6dc-4e93-9652-76b1805f4fc1",
+        "quote": "I now walk into the wild.",
+        "author": "— Jon Krakauer",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "506ec664-cc00-44e9-b2e2-23ba30b6f44f",
+        "quote": "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.",
+        "author": "— Hal Borland",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "ba5eea4f-8d88-4f28-bbc6-5c9ba1f91dfa",
+        "quote": "The world is big and I want to have a good look at it before it gets dark.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "8c1b90ea-7aa6-434a-b4d5-8a043ec65277",
+        "quote": "I go to nature to be soothed and healed, and to have my senses put in order.",
+        "author": "— John Burroughs",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "ef5a62fc-207f-477d-9b75-6807e4924091",
+        "quote": "Heaven is under our feet as well as over our heads.",
+        "author": "Henry David Thoreau",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "a38135f6-98b6-41f5-9c8b-a3dfd85f04dd",
+        "quote": "Wilderness is not a luxury but a necessity of the human spirit.",
+        "author": "Edward Abbey",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "7f66e0f4-ee1e-4af3-bef8-f7b0ec8b832f",
+        "quote": "For in the true nature of things, if we rightly consider, every green tree is far more glorious than if it were made of gold and silver.",
+        "author": "— Martin Luther",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "66fe59da-2dbb-47d9-b83a-337a465fb40e",
+        "quote": "Every sunset brings the promise of a new dawn.",
+        "author": "Ralph Waldo Emerson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "661174d1-883b-4408-8547-3559613a1f5f",
+        "quote": "The poetry of the earth is never dead.",
+        "author": "— John Keats",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "8cf74957-a4cf-4c6a-a454-9cb9490fd15f",
+        "quote": "Men stumble over pebbles, never over mountains.",
+        "author": "— Marilyn French",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "92890e1b-3771-4b96-bade-1c31d93dd7c7",
+        "quote": "Those who contemplate the beauty of the earth find reserves of strength that will endure as long as life lasts.",
+        "author": "Rachel Carson",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "aa8833c2-027c-4662-90a4-3cc71f53d1c3",
+        "quote": "The woods are lovely, dark and deep, but I have promises to keep, and miles to go before I sleep, and miles to go before I sleep.",
+        "author": "— Robert Frost",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "c57ca95a-9903-4fa3-9824-4c52e92bac2f",
+        "quote": "I am losing precious days. I am degenerating into a machine for making money. I am learning nothing in this trivial world of men. I must break away and get out into the mountains to learn the news.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "b659bfb0-36c0-490d-8aab-14ee77387447",
+        "quote": "Come forth into the light of things, let nature be your teacher.",
+        "author": "William Wordsworth",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "3d345436-3118-4af4-b4b9-d586ecf949d0",
+        "quote": "I will be the gladdest thing under the sun! I will touch a hundred flowers and not pick one.",
+        "author": "— Edna St. Vincent Millay",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "c68ed04f-1a57-4bd2-bbee-522e01ca340c",
+        "quote": "When one tugs at a single thing in nature, he finds it attached to the rest of the world.",
+        "author": "John Muir",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "e83adb77-96d8-454d-9927-41120eed9c01",
+        "quote": "I realized that If I had to choose, I would rather have birds than airplanes. In wilderness I sense the miracle of life, and behind it our scientific accomplishments fade to trivia. Real freedom lies in wildness, not in civilization.",
+        "author": "— Charles A. Lindbergh",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "410f390e-4b06-49ab-82f3-9acb7348fa74",
+        "quote": "The more civilized man becomes, the more he needs and craves a great background of forest wildness, to which he may return like a contrite prodigal from the husks of an artificial life.",
+        "author": "— Ellen Burns Sherman",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "95bb31b0-12e3-4d42-a33f-df6625f5eb63",
+        "quote": "Science has never drummed up quite as effective a tranquilizing agent as a sunny spring day.",
+        "author": "— W. Earl Hall",
+        "tags": [
+            "nature"
+        ]
+    },
+    {
+        "_id": "e83355a9-da57-441d-be44-54f78d34cda7",
+        "quote": "Experience nature, and in doing so learn about yourself.",
+        "author": "— Japanese Proverb",
+        "tags": [
+            "nature"
+        ]
+    }
+]
