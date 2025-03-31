@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from './ui/Card';
 import { Copy, Share2 } from 'lucide-react';
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
