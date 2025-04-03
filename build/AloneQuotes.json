@@ -1,0 +1,450 @@
+[
+  {
+    "_id": "1",
+    "content": "The eternal quest of the individual human being is to shatter his loneliness.",
+    "author": "Norman Cousins",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "2",
+    "content": "Alone we can do so little; together we can do so much.",
+    "author": "Helen Keller",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "3",
+    "content": "If you are lonely when you're alone, you are in bad company.",
+    "author": "Jean-Paul Sartre",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "4",
+    "content": "It is far better to be alone, than to be in bad company.",
+    "author": "George Washington",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "5",
+    "content": "I restore myself when I'm alone.",
+    "author": "Marilyn Monroe",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "6",
+    "content": "Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.",
+    "author": "A. P. J. Abdul Kalam",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "7",
+    "content": "Loneliness is the poverty of self; solitude is the richness of self.",
+    "author": "May Sarton",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "8",
+    "content": "The strongest man in the world is he who stands most alone.",
+    "author": "Henrik Ibsen",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "9",
+    "content": "Every man must do two things alone; he must do his own believing and his own dying.",
+    "author": "Martin Luther",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "10",
+    "content": "When the people you love are gone, you're alone.",
+    "author": "Keanu Reeves",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "11",
+    "content": "Solitude is independence.",
+    "author": "Hermann Hesse",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "12",
+    "content": "Loneliness adds beauty to life. It puts a special burn on sunsets and makes night air smell better.",
+    "author": "Henry Rollins",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "13",
+    "content": "In solitude the mind gains strength and learns to lean upon itself.",
+    "author": "Laurence Sterne",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "14",
+    "content": "Solitude vivifies; isolation kills.",
+    "author": "Joseph Roux",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "15",
+    "content": "I would rather be a beggar and single than a queen and married.",
+    "author": "Elizabeth I",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "16",
+    "content": "To live alone is the fate of all great souls.",
+    "author": "Arthur Schopenhauer",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "17",
+    "content": "You cannot be lonely if you like the person you're alone with.",
+    "author": "Wayne Dyer",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "18",
+    "content": "Then stirs the feeling infinite, so felt In solitude, where we are least alone.",
+    "author": "Lord Byron",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "19",
+    "content": "Every man is born as many men and dies as a single one.",
+    "author": "Martin Heidegger",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "20",
+    "content": "A man is born alone and dies alone; and he experiences the good and bad consequences of his karma alone; and he goes alone to hell or the Supreme abode.",
+    "author": "Chanakya",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "21",
+    "content": "If you make friends with yourself you will never be alone.",
+    "author": "Maxwell Maltz",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "22",
+    "content": "Life could be wonderful if people would leave you alone.",
+    "author": "Charlie Chaplin",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "23",
+    "content": "You only grow when you are alone.",
+    "author": "Paul Newman",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "24",
+    "content": "I finally faced the fact that it isn't a crime not having friends. Being alone means you have fewer problems.",
+    "author": "Whitney Houston",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "25",
+    "content": "I never said, 'I want to be alone.' I only said, 'I want to be left alone.' There is all the difference.",
+    "author": "Greta Garbo",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "26",
+    "content": "We are all sentenced to solitary confinement inside our own skins, for life.",
+    "author": "Tennessee Williams",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "27",
+    "content": "To be adult is to be alone.",
+    "author": "Jean Rostand",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "28",
+    "content": "You come into the world alone and you go out of the world alone yet it seems to me you are more alone while living than even going and coming.",
+    "author": "Emily Carr",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "29",
+    "content": "Pray that your loneliness may spur you into finding something to live for, great enough to die for.",
+    "author": "Dag Hammarskjold",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "30",
+    "content": "It is strange to be known so universally and yet to be so lonely.",
+    "author": "Albert Einstein",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "31",
+    "content": "Loneliness is my least favorite thing about life. The thing that I'm most worried about is just being alone without anybody to care for or someone who will care for me.",
+    "author": "Anne Hathaway",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "32",
+    "content": "Remember we're all in this alone.",
+    "author": "Lily Tomlin",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "33",
+    "content": "The longer one is alone, the easier it is to hear the song of the earth.",
+    "author": "Robert Anton Wilson",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "34",
+    "content": "Nothing makes us so lonely as our secrets.",
+    "author": "Paul Tournier",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "35",
+    "content": "The time you feel lonely is the time you most need to be by yourself.",
+    "author": "Douglas Coupland",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "36",
+    "content": "I may climb perhaps to no great heights, but I will climb alone.",
+    "author": "Cyrano de Bergerac",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "37",
+    "content": "I was never less alone than when by myself.",
+    "author": "Edward Gibbon",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "38",
+    "content": "To go out with the setting sun on an empty beach is to truly embrace your solitude.",
+    "author": "Jeanne Moreau",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "39",
+    "content": "As I get older I'm more and more comfortable being alone.",
+    "author": "Sienna Miller",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "40",
+    "content": "The lonely become either thoughtful or empty.",
+    "author": "Mason Cooley",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "41",
+    "content": "Inside myself is a place where I live all alone and that is where I renew my springs that never dry up.",
+    "author": "Pearl S. Buck",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "42",
+    "content": "If it's true that our species is alone in the universe, then I'd have to say the universe aimed rather low and settled for very little.",
+    "author": "George Carlin",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "43",
+    "content": "Let your mind alone, and see what happens.",
+    "author": "Virgil Thomson",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "44",
+    "content": "Still and all, why bother? Here's my answer. Many people need desperately to receive this message: I feel and think much as you do, care about many of the things you care about, although most people do not care about them. You are not alone.",
+    "author": "Kurt Vonnegut",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "45",
+    "content": "I want to be with those who know secret things or else alone.",
+    "author": "Rainer Maria Rilke",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "46",
+    "content": "The best part about being alone is that you really don't have to answer to anybody. You do what you want.",
+    "author": "Justin Timberlake",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "47",
+    "content": "I paint self-portraits because I am so often alone, because I am the person I know best.",
+    "author": "Frida Kahlo",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "48",
+    "content": "You're only lonely if you're not there for you.",
+    "author": "Phil McGraw",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "49",
+    "content": "Solitude is the profoundest fact of the human condition. Man is the only being who knows he is alone.",
+    "author": "Octavio Paz",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "50",
+    "content": "Don't go away. I don't want to be alone. I can't stand being alone.",
+    "author": "Arnold Rothstein",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "51",
+    "content": "I have so many different personalities in me and I still feel lonely.",
+    "author": "Tori Amos",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "52",
+    "content": "Your actions, and your action alone, determines your worth.",
+    "author": "Evelyn Waugh",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "53",
+    "content": "We allow our ignorance to prevail upon us and make us think we can survive alone, alone in patches, alone in groups, alone in races, even alone in genders.",
+    "author": "Maya Angelou",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "54",
+    "content": "It is very easy to love alone.",
+    "author": "Gertrude Stein",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "56",
+    "content": "What a lovely surprise to finally discover how unlonely being alone can be.",
+    "author": "Ellen Burstyn",
+    "tags": [
+      "Alone"
+    ]
+  },
+  {
+    "_id": "57",
+    "content": "Alone let him constantly meditate in solitude on that which is salutary for his soul, for he who meditates in solitude, attains supreme bliss.",
+    "author": "Guru Nanak",
+    "tags": [
+      "Alone"
+    ]
+  }
+]

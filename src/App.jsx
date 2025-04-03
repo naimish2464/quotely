@@ -29,7 +29,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import QuoteCategoriesFooter from './components/QuoteCategoriesFooter';
 import { useEffect } from 'react';
-import { trackPageView } from '@vercel/analytics';
+import trackPageView from '@vercel/analytics';
 
 
 
