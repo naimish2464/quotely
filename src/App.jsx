@@ -29,13 +29,14 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import QuoteCategoriesFooter from './components/QuoteCategoriesFooter';
 import { useEffect } from 'react';
-
+import { trackPageView } from '@vercel/analytics';
 
 
 
 function App() {
 
   useEffect(() => {
+    trackPageView(); // This will track the page view when the component mounts
     const disableRightClick = (event) => event.preventDefault();
     const disableInspect = (event) => {
       if (event.ctrlKey && ["u", "s", "i", "j", "h"].includes(event.key)) {
