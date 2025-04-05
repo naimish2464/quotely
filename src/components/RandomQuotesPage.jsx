@@ -78,6 +78,10 @@ const RandomQuotesPage = () => {
             <div className="relative p-8 md:p-10">
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-indigo-100/40 to-purple-100/40 dark:from-indigo-900/20 dark:to-purple-900/20 z-0"></div>
               <div className="relative z-10">
+              <div className="container mx-auto px-4 py-12 mt-32">
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 transition-all duration-500">
+            Random Quotes
+          </h1>
                 <blockquote className="font-serif italic text-xl md:text-2xl text-center leading-relaxed text-gray-800 dark:text-gray-100 transition-colors duration-300 mb-6">
                   "{quote.content}"
                   <div className="mt-2 w-16 h-1 mx-auto bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full"></div>
@@ -107,6 +111,7 @@ const RandomQuotesPage = () => {
                             <Share2 className="h-4 w-4" />
                             <span className="text-sm font-medium">Share</span>
                           </button>
+              </div>
               </div>
             </div>
           </CardContent>

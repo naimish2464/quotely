@@ -162,7 +162,7 @@ const AllReligionQuotesPage = () => {
       <ToastContainer />
       
       <main className="relative z-10">
-        <div className="container mx-auto px-4 py-12">
+        <div className="container mx-auto px-4 py-12 mt-32">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 transition-all duration-500">
             All Religion Quotes
           </h1>

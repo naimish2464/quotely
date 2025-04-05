@@ -65,8 +65,8 @@ const MotivationalQuotesPage = () => {
   return (
     <div className="flex flex-col bg-gradient-to-br from-blue-100 to-indigo-100 dark:from-gray-900 dark:to-indigo-950 text-gray-900 dark:text-white relative overflow-hidden">
       <main className="relative z-10 flex-grow">
-        <div className="container mx-auto px-4 py-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 transition-all duration-500">
+        <div className="container mx-auto px-4 py-12 mt-32">
+          <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-400 dark:to-indigo-400 transition-all duration-500 ">
             Motivational Quotes
           </h1>
           <div className="flex flex-col items-center space-y-16">

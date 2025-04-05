@@ -34,26 +34,26 @@ import { useEffect } from 'react';
 
 function App() {
 
-  useEffect(() => {
+  // useEffect(() => {
     
-    const disableRightClick = (event) => event.preventDefault();
-    const disableInspect = (event) => {
-      if (event.ctrlKey && ["u", "s", "i", "j", "h"].includes(event.key)) {
-        event.preventDefault();
-      }
-      if (event.key === "F12") {
-        event.preventDefault();
-      }
-    };
+  //   const disableRightClick = (event) => event.preventDefault();
+  //   const disableInspect = (event) => {
+  //     if (event.ctrlKey && ["u", "s", "i", "j", "h"].includes(event.key)) {
+  //       event.preventDefault();
+  //     }
+  //     if (event.key === "F12") {
+  //       event.preventDefault();
+  //     }
+  //   };
 
-    document.addEventListener("contextmenu", disableRightClick);
-    document.addEventListener("keydown", disableInspect);
+  //   document.addEventListener("contextmenu", disableRightClick);
+  //   document.addEventListener("keydown", disableInspect);
 
-    return () => {
-      document.removeEventListener("contextmenu", disableRightClick);
-      document.removeEventListener("keydown", disableInspect);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("contextmenu", disableRightClick);
+  //     document.removeEventListener("keydown", disableInspect);
+  //   };
+  // }, []);
 
   return (
     <Router>

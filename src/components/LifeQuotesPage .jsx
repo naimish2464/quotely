@@ -65,7 +65,7 @@ const LifeQuotesPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-yellow-50 dark:from-gray-900 dark:to-teal-950 text-gray-900 dark:text-white relative overflow-hidden">
       <main className="relative z-10">
-        <div className="container mx-auto px-4 py-12">
+        <div className="container mx-auto px-4 py-12 mt-32">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-yellow-600 dark:from-green-400 dark:to-yellow-400 transition-all duration-500">
             Life Quotes
           </h1>

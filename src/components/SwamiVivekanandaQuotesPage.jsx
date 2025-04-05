@@ -62,7 +62,7 @@ const SwamiVivekanandaQuotesPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-white relative overflow-hidden">
       <main className="relative z-10">
-        <div className="container mx-auto px-4 py-12">
+        <div className="container mx-auto px-4 py-12 mt-32">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-700 dark:from-gray-400 dark:to-gray-500 transition-all duration-500">
             Swami Vivekananda Quotes
           </h1>

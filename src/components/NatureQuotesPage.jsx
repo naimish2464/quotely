@@ -64,7 +64,7 @@ const NatureQuotesPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-100 to-blue-100 dark:from-gray-900 dark:to-teal-950 text-gray-900 dark:text-white relative overflow-hidden">
       <main className="relative z-10">
-        <div className="container mx-auto px-4 py-12">
+        <div className="container mx-auto px-4 py-12 mt-32">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-12 tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600 dark:from-green-400 dark:to-blue-400 transition-all duration-500">
             Nature Quotes
           </h1>
