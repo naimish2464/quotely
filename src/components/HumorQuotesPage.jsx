@@ -147,34 +147,6 @@ const HumorQuotesPage = () => {
     }
   };
 
-  const handleWhatsAppShare = (quote, author) => {
-    const message = encodeURIComponent(`"${quote}" - ${author}`);
-    window.open(`https://wa.me/?text=${message}`, '_blank');
-  };
-
-  const handleInstagramShare = async (quote, author) => {
-    const message = encodeURIComponent(`"${quote}" - ${author}`);
-
-    try {
-      const response = await fetch(
-        'https://graph.facebook.com/v18.0/instagram_oembed?url=https://www.instagram.com/&access_token=YOUR_INSTAGRAM_GRAPH_API_TOKEN'
-      );
-      const data = await response.json();
-
-      if (data && data.html) {
-        const instagramLink = `https://www.instagram.com/?text=${message}`;
-        window.open(instagramLink, '_blank');
-      } else {
-        const instagramLink = `https://www.instagram.com/?text=${message}`;
-        window.open(instagramLink, '_blank');
-      }
-    } catch (error) {
-      console.error('Error sharing to instagram:', error);
-      const instagramLink = `https://www.instagram.com/?text=${message}`;
-      window.open(instagramLink, '_blank');
-    }
-  };
-
 
 
   return (

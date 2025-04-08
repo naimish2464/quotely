@@ -29,13 +29,41 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm ">
-      <div className="bg-white container mx-auto flex justify-between items-center p-4">
+    <nav className="sticky w-full top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm ">
+      <div className="bg-white w-full flex justify-between items-center p-4">
         {/* Left Side - Logo */}
-        <div className="flex items-center space-x-2">
-          <Home className="text-primary" size={24} />
-          <h1 className="text-2xl font-bold text-gray-800 dark:text-white">Quotely</h1>
-        </div>
+        <Link to="/" className="flex items-center">
+  <svg width="180" height="60" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="100" fill="white" />
+    <text
+      x="90"
+      y="65"
+      style={{
+        fontFamily: 'Arial, sans-serif',
+        fontSize: '48px',
+        fill: '#1a1a2e',
+        fontWeight: 'bold',
+      }}
+    >
+      Quotely
+    </text>
+    <g>
+      <circle cx="50" cy="50" r="30" fill="#ff6b35" />
+      <text
+        x="35"
+        y="57"
+        style={{
+          fill: 'white',
+          fontFamily: 'Arial, sans-serif',
+          fontSize: '20px',
+          fontWeight: 'bold',
+        }}
+      >
+        “”
+      </text>
+    </g>
+  </svg>
+</Link>
 
         {/* Center Navigation */}
         <div className="hidden md:flex space-x-4">

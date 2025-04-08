@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent } from './ui/Card';
-import { Copy } from 'lucide-react';
+import { Copy,Share2 } from 'lucide-react';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -38,9 +38,25 @@ const FriendshipQuotesPage = () => {
     });
   };
 
-  const handleWhatsAppShare = (quote, author) => {
+  const handleShare = (quote, author) => {
     const message = encodeURIComponent(`"${quote}" - ${author}`);
-    window.open(`https://wa.me/?text=${message}`, '_blank');
+    
+    // Create sharing menu
+    const shareData = {
+      title: 'Share Quote',
+      text: `"${quote}" - ${author}`,
+      url: window.location.href
+    };
+    
+    if (navigator.share) {
+      navigator.share(shareData)
+        .catch(err => {
+          console.error('Error sharing:', err);
+          window.open(`https://wa.me/?text=${message}`, '_blank');
+        });
+    } else {
+      window.open(`https://wa.me/?text=${message}`, '_blank');
+    }
   };
 
   const handleInstagramShare = async (quote, author) => {
@@ -108,22 +124,14 @@ const FriendshipQuotesPage = () => {
                           </button>
                         </div>
                         <div className="flex gap-4">
-                          <button
-                            onClick={() => handleWhatsAppShare(quote.content, quote.author)}
-                            className="flex items-center gap-2 px-4 py-2 rounded-full text-gray-600 hover:text-green-600 dark:text-gray-400 dark:hover:text-green-400 hover:bg-green-50 dark:hover:bg-green-900/30 transition-all duration-300"
-                            aria-label="Share on WhatsApp"
-                          >
-                            <FaWhatsapp className="h-4 w-4" />
-                            <span className="text-sm font-medium">WhatsApp</span>
-                          </button>
-                          <button
-                            onClick={() => handleInstagramShare(quote.content, quote.author)}
-                            className="flex items-center gap-2 px-4 py-2 rounded-full text-gray-600 hover:text-purple-600 dark:text-gray-400 dark:hover:text-purple-400 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-all duration-300"
-                            aria-label="Share on Instagram"
-                          >
-                            <FaInstagram className="h-4 w-4" />
-                            <span className="text-sm font-medium">Instagram</span>
-                          </button>
+                          <button 
+                              onClick={() => handleShare(quote.content, quote.author)} 
+                              className="flex items-center gap-2 px-4 py-2 rounded-full text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 transition-all duration-300" 
+                              aria-label="Share quote"
+                            >
+                              <Share2 className="h-4 w-4" />
+                              <span className="text-sm font-medium">Share</span>
+                            </button>
                         </div>
                       </div>
                     </CardContent>
