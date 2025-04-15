@@ -1,11 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useCallback  } from 'react';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+const initialLoadCount = 6;
+const loadMoreIncrement = 6;
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [activeCategory, setActiveCategory] = useState('All');
   const [copied, setCopied] = useState(null);
+  const [visibleQuotes, setVisibleQuotes] = useState([]);
+  const [loadCount, setLoadCount] = useState(initialLoadCount);
 
   const categories = ['All', 'Motivation', 'Love', 'Success', 'Life', 'Wisdom', 'Happiness'];
 
@@ -65,25 +72,685 @@ const App = () => {
       author: "Chinese Proverb",
       category: "Wisdom",
       likes: 298
+    },
+    {
+      id: 9,
+      text: "Success is not the key to happiness. Happiness is the key to success.",
+      author: "Albert Schweitzer",
+      category: "Success",
+      likes: 450
+    },
+    {
+      id: 10,
+      text: "The only limit to our realization of tomorrow will be our doubts of today.",
+      author: "Franklin D. Roosevelt",
+      category: "Motivation",
+      likes: 512
+    },
+    {
+      id: 11,
+      text: "To love and be loved is to feel the sun from both sides.",
+      author: "David Viscott",
+      category: "Love",
+      likes: 390
+    },
+    {
+      id: 12,
+      text: "The purpose of our lives is to be happy.",
+      author: "Dalai Lama",
+      category: "Happiness",
+      likes: 470
+    },
+    {
+      id: 13,
+      text: "You miss 100% of the shots you don’t take.",
+      author: "Wayne Gretzky",
+      category: "Success",
+      likes: 600
+    },
+    {
+      id: 14,
+      text: "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      author: "Ralph Waldo Emerson",
+      category: "Wisdom",
+      likes: 330
+    },
+    {
+      id: 15,
+      text: "In three words I can sum up everything I've learned about life: it goes on.",
+      author: "Robert Frost",
+      category: "Life",
+      likes: 275
+    },
+    {
+      id: 16,
+      text: "The only way to achieve the impossible is to believe it is possible.",
+      author: "Charles Kingsleigh",
+      category: "Motivation",
+      likes: 410
+    },
+    {
+      id: 17,
+      text: "True love is eternal, infinite, and always like itself.",
+      author: "Honore de Balzac",
+      category: "Love",
+      likes: 420
+    },
+    {
+      id: 18,
+      text: "The mind is everything. What you think you become.",
+      author: "Buddha",
+      category: "Wisdom",
+      likes: 480
+    },
+    {
+      id: 19,
+      text: "The best way to predict the future is to create it.",
+      author: "Peter Drucker",
+      category: "Success",
+      likes: 550
+    },
+    {
+      id: 20,
+      text: "Do not dwell in the past, do not dream of the future, concentrate the mind on the present moment.",
+      author: "Buddha",
+      category: "Life",
+      likes: 390
+    },
+    {
+      id: 21,
+      text: "Success usually comes to those who are too busy to be looking for it.",
+      author: "Henry David Thoreau",
+      category: "Success",
+      likes: 460
+    },
+    {
+      id: 22,
+      text: "You only live once, but if you do it right, once is enough.",
+      author: "Mae West",
+      category: "Life",
+      likes: 520
+    },
+    {
+      id: 23,
+      text: "The only thing we have to fear is fear itself.",
+      author: "Franklin D. Roosevelt",
+      category: "Motivation",
+      likes: 400
+    },
+    {
+      id: 24,
+      text: "Love all, trust a few, do wrong to none.",
+      author: "William Shakespeare",
+      category: "Love",
+      likes: 310
+    },
+    {
+      id: 25,
+      text: "The journey of a thousand miles begins with one step.",
+      author: "Lao Tzu",
+      category: "Wisdom",
+      likes: 450
+    },
+    {
+      id: 26,
+      text: "Dream big and dare to fail.",
+      author: "Norman Vaughan",
+      category: "Motivation",
+      likes: 375
+    },
+    {
+      id: 27,
+      text: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+      author: "Ralph Waldo Emerson",
+      category: "Wisdom",
+      likes: 390
+    },
+    {
+      id: 28,
+      text: "Life is either a daring adventure or nothing at all.",
+      author: "Helen Keller",
+      category: "Life",
+      likes: 480
+    },
+    {
+      id: 29,
+      text: "The best revenge is massive success.",
+      author: "Frank Sinatra",
+      category: "Success",
+      likes: 530
+    },
+    {
+      id: 30,
+      text: "Love is not about possession. Love is about appreciation.",
+      author: "Osho",
+      category: "Love",
+      likes: 410
+    },
+    {
+      id: 31,
+      text: "Success is walking from failure to failure with no loss of enthusiasm.",
+      author: "Winston S. Churchill",
+      category: "Success",
+      likes: 490
+    },
+    {
+      id: 32,
+      text: "The greatest wealth is to live content with little.",
+      author: "Plato",
+      category: "Wisdom",
+      likes: 340
+    },
+    {
+      id: 33,
+      text: "Life is really simple, but we insist on making it complicated.",
+      author: "Confucius",
+      category: "Life",
+      likes: 360
+    },
+    {
+      id: 34,
+      text: "Believe you can and you're halfway there.",
+      author: "Theodore Roosevelt",
+      category: "Motivation",
+      likes: 520
+    },
+    {
+      id: 35,
+      text: "Love is the only force capable of transforming an enemy into a friend.",
+      author: "Martin Luther King Jr.",
+      category: "Love",
+      likes: 450
+    },
+    {
+      id: 36,
+      text: "The mind is everything. What you think you become.",
+      author: "Buddha",
+      category: "Wisdom",
+      likes: 480
+    },
+    {
+      id: 37,
+      text: "Act as if what you do makes a difference. It does.",
+      author: "William James",
+      category: "Motivation",
+      likes: 410
+    },
+    {
+      id: 38,
+      text: "Success is not in what you have, but who you are.",
+      author: "Bo Bennett",
+      category: "Success",
+      likes: 460
+    },
+    {
+      id: 39,
+      text: "Life is short, and it is up to you to make it sweet.",
+      author: "Sarah Louise Delany",
+      category: "Life",
+      likes: 390
+    },
+    {
+      id: 40,
+      text: "Love is a canvas furnished by nature and embroidered by imagination.",
+      author: "Voltaire",
+      category: "Love",
+      likes: 370
+    },
+    {
+      "id": 41,
+      "text": "Success is how high you bounce when you hit bottom.",
+      "author": "George S. Patton",
+      "category": "Success",
+      "likes": 490
+    },
+    {
+      "id": 42,
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "category": "Wisdom",
+      "likes": 520
+    },
+    {
+      "id": 43,
+      "text": "Life is either a daring adventure or nothing at all.",
+      "author": "Helen Keller",
+      "category": "Life",
+      "likes": 480
+    },
+    {
+      "id": 44,
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston S. Churchill",
+      "category": "Success",
+      "likes": 550
+    },
+    {
+      "id": 45,
+      "text": "Love is composed of a single soul inhabiting two bodies.",
+      "author": "Aristotle",
+      "category": "Love",
+      "likes": 412
+    },
+    {
+      "id": 46,
+      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "category": "Motivation",
+      "likes": 512
+    },
+    {
+      "id": 47,
+      "text": "The mind is everything. What you think you become.",
+      "author": "Buddha",
+      "category": "Wisdom",
+      "likes": 480
+    },
+    {
+      "id": 48,
+      "text": "Success is not the key to happiness. Happiness is the key to success.",
+      "author": "Albert Schweitzer",
+      "category": "Success",
+      "likes": 450
+    },
+    {
+      "id": 49,
+      "text": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "category": "Life",
+      "likes": 415
+    },
+    {
+      "id": 50,
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "category": "Motivation",
+      "likes": 378
+    },
+    {
+      "id": 51,
+      "text": "Happiness is not something ready-made. It comes from your own actions.",
+      "author": "Dalai Lama",
+      "category": "Happiness",
+      "likes": 356
+    },
+    {
+      "id": 52,
+      "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+      "author": "Chinese Proverb",
+      "category": "Wisdom",
+      "likes": 298
+    },
+    {
+      "id": 53,
+      "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+      "author": "Winston S. Churchill",
+      "category": "Success",
+      "likes": 490
+    },
+    {
+      "id": 54,
+      "text": "To love and be loved is to feel the sun from both sides.",
+      "author": "David Viscott",
+      "category": "Love",
+      "likes": 390
+    },
+    {
+      "id": 55,
+      "text": "The purpose of our lives is to be happy.",
+      "author": "Dalai Lama",
+      "category": "Happiness",
+      "likes": 470
+    },
+    {
+      "id": 56,
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "category": "Success",
+      "likes": 600
+    },
+    {
+      "id": 57,
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "category": "Wisdom",
+      "likes": 330
+    },
+    {
+      "id": 58,
+      "text": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost",
+      "category": "Life",
+      "likes": 275
+    },
+    {
+      "id": 59,
+      "text": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Charles Kingsleigh",
+      "category": "Motivation",
+      "likes": 410
+    },
+    {
+      "id": 60,
+      "text": "True love is eternal, infinite, and always like itself.",
+      "author": "Honore de Balzac",
+      "category": "Love",
+      "likes": 420
+    },
+    {
+      "id": 61,
+      "text": "Success is how high you bounce when you hit bottom.",
+      "author": "George S. Patton",
+      "category": "Success",
+      "likes": 490
+    },
+    {
+      "id": 62,
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "category": "Wisdom",
+      "likes": 520
+    },
+    {
+      "id": 63,
+      "text": "Life is either a daring adventure or nothing at all.",
+      "author": "Helen Keller",
+      "category": "Life",
+      "likes": 480
+    },
+    {
+      "id": 64,
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston S. Churchill",
+      "category": "Success",
+      "likes": 550
+    },
+    {
+      "id": 65,
+      "text": "Love is composed of a single soul inhabiting two bodies.",
+      "author": "Aristotle",
+      "category": "Love",
+      "likes": 412
+    },
+    {
+      "id": 66,
+      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "category": "Motivation",
+      "likes": 512
+    },
+    {
+      "id": 67,
+      "text": "The mind is everything. What you think you become.",
+      "author": "Buddha",
+      "category": "Wisdom",
+      "likes": 480
+    },
+    {
+      "id": 68,
+      "text": "Success is not the key to happiness. Happiness is the key to success.",
+      "author": "Albert Schweitzer",
+      "category": "Success",
+      "likes": 450
+    },
+    {
+      "id": 69,
+      "text": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "category": "Life",
+      "likes": 415
+    },
+    {
+      "id": 70,
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "category": "Motivation",
+      "likes": 378
+    },
+    {
+      "id": 71,
+      "text": "Happiness is not something ready-made. It comes from your own actions.",
+      "author": "Dalai Lama",
+      "category": "Happiness",
+      "likes": 356
+    },
+    {
+      "id": 72,
+      "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+      "author": "Chinese Proverb",
+      "category": "Wisdom",
+      "likes": 298
+    },
+    {
+      "id": 73,
+      "text": "To love and be loved is to feel the sun from both sides.",
+      "author": "David Viscott",
+      "category": "Love",
+      "likes": 390
+    },
+    {
+      "id": 74,
+      "text": "The purpose of our lives is to be happy.",
+      "author": "Dalai Lama",
+      "category": "Happiness",
+      "likes": 470
+    },
+    {
+      "id": 75,
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "category": "Success",
+      "likes": 600
+    },
+    {
+      "id": 76,
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "category": "Wisdom",
+      "likes": 330
+    },
+    {
+      "id": 77,
+      "text": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost",
+      "category": "Life",
+      "likes": 275
+    },
+    {
+      "id": 78,
+      "text": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Charles Kingsleigh",
+      "category": "Motivation",
+      "likes": 410
+    },
+    {
+      "id": 79,
+      "text": "True love is eternal, infinite, and always like itself.",
+      "author": "Honore de Balzac",
+      "category": "Love",
+      "likes": 420
+    },
+    {
+      "id": 80,
+      "text": "Success is how high you bounce when you hit bottom.",
+      "author": "George S. Patton",
+      "category": "Success",
+      "likes": 490
+    },
+    {
+      "id": 81,
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "category": "Wisdom",
+      "likes": 520
+    },
+    {
+      "id": 82,
+      "text": "Life is either a daring adventure or nothing at all.",
+      "author": "Helen Keller",
+      "category": "Life",
+      "likes": 480
+    },
+    {
+      "id": 83,
+      "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "author": "Winston S. Churchill",
+      "category": "Success",
+      "likes": 550
+    },
+    {
+      "id": 84,
+      "text": "Love is composed of a single soul inhabiting two bodies.",
+      "author": "Aristotle",
+      "category": "Love",
+      "likes": 412
+    },
+    {
+      "id": 85,
+      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "category": "Motivation",
+      "likes": 512
+    },
+    {
+      "id": 86,
+      "text": "The mind is everything. What you think you become.",
+      "author": "Buddha",
+      "category": "Wisdom",
+      "likes": 480
+    },
+    {
+      "id": 87,
+      "text": "Success is not the key to happiness. Happiness is the key to success.",
+      "author": "Albert Schweitzer",
+      "category": "Success",
+      "likes": 450
+    },
+    {
+      "id": 88,
+      "text": "Life is what happens when you're busy making other plans.",
+      "author": "John Lennon",
+      "category": "Life",
+      "likes": 415
+    },
+    {
+      "id": 89,
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "category": "Motivation",
+      "likes": 378
+    },
+    {
+      "id": 90,
+      "text": "Happiness is not something ready-made. It comes from your own actions.",
+      "author": "Dalai Lama",
+      "category": "Happiness",
+      "likes": 356
+    },
+    {
+      "id": 91,
+      "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+      "author": "Chinese Proverb",
+      "category": "Wisdom",
+      "likes": 298
+    },
+    {
+      "id": 92,
+      "text": "To love and be loved is to feel the sun from both sides.",
+      "author": "David Viscott",
+      "category": "Love",
+      "likes": 390
+    },
+    {
+      "id": 93,
+      "text": "The purpose of our lives is to be happy.",
+      "author": "Dalai Lama",
+      "category": "Happiness",
+      "likes": 470
+    },
+    {
+      "id": 94,
+      "text": "You miss 100% of the shots you don’t take.",
+      "author": "Wayne Gretzky",
+      "category": "Success",
+      "likes": 600
+    },
+    {
+      "id": 95,
+      "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "author": "Ralph Waldo Emerson",
+      "category": "Wisdom",
+      "likes": 330
+    },
+    {
+      "id": 96,
+      "text": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost",
+      "category": "Life",
+      "likes": 275
+    },
+    {
+      "id": 97,
+      "text": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Charles Kingsleigh",
+      "category": "Motivation",
+      "likes": 410
+    },
+    {
+      "id": 98,
+      "text": "True love is eternal, infinite, and always like itself.",
+      "author": "Honore de Balzac",
+      "category": "Love",
+      "likes": 420
+    },
+    {
+      "id": 99,
+      "text": "Success is how high you bounce when you hit bottom.",
+      "author": "George S. Patton",
+      "category": "Success",
+      "likes": 490
+    },
+    {
+      "id": 100,
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "category": "Wisdom",
+      "likes": 520
     }
+
   ];
 
-  const filteredQuotes = activeCategory === 'All' 
-    ? quotes 
-    : quotes.filter(quote => quote.category === activeCategory);
+  const getFilteredQuotes = useCallback(() => {
+    return activeCategory === 'All'
+      ? quotes
+      : quotes.filter(quote => quote.category === activeCategory);
+  }, [activeCategory, quotes]); // Add the dependencies of getFilteredQuotes
+
+  useEffect(() => {
+    setVisibleQuotes(getFilteredQuotes().slice(0, loadCount));
+  }, [getFilteredQuotes, loadCount]); // Your existing useEffect
 
   const copyToClipboard = (text, id) => {
     navigator.clipboard.writeText(text);
     setCopied(id.toString());
+     toast.success('Quote copied to clipboard!', {
+          position: 'top-center',
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
     setTimeout(() => setCopied(null), 2000);
   };
 
   useEffect(() => {
     const chartDom = document.getElementById('popular-quotes-chart');
     if (!chartDom) return;
-    
+
     const myChart = echarts.init(chartDom);
-    
+
     const option = {
       animation: false,
       tooltip: {
@@ -133,13 +800,31 @@ const App = () => {
         color: darkMode ? '#e0e0e0' : '#333'
       }
     };
-    
+
     myChart.setOption(option);
-    
+
     return () => {
       myChart.dispose();
     };
-  }, [darkMode]);
+  }, [darkMode, quotes]);
+
+  const handleLoadMore = () => {
+    setLoadCount(prevCount => prevCount + loadMoreIncrement);
+  };
+
+  const handleShare = (text) => {
+    if (navigator.share) {
+      navigator.share({
+        title: 'Quote',
+        text: text,
+      })
+        .then(() => console.log('Successful share'))
+        .catch((error) => console.log('Error sharing', error));
+    } else {
+      // Fallback for browsers that don't support the Web Share API
+      alert(`Share this quote: "${text}"`);
+    }
+  };
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
@@ -264,7 +949,7 @@ const App = () => {
 
         {/* Quotes Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredQuotes.map(quote => (
+          {visibleQuotes.map(quote => (
             <div 
               key={quote.id}
               className={`rounded-lg p-6 transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl ${
@@ -318,7 +1003,9 @@ const App = () => {
                     )}
                   </button>
                   
-                  <button className={`p-2 rounded-full cursor-pointer transition-all duration-300 !rounded-button whitespace-nowrap ${
+                  <button 
+                  onClick={() => handleShare(quote.text)}
+                  className={`p-2 rounded-full cursor-pointer transition-all duration-300 !rounded-button whitespace-nowrap ${
                     darkMode 
                       ? 'bg-gray-700 text-gray-300 hover:bg-gray-600' 
                       : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
@@ -333,7 +1020,8 @@ const App = () => {
 
         {/* Load More Button */}
         <div className="mt-12 text-center">
-          <button className="py-3 px-8 bg-purple-600 text-white rounded-button whitespace-nowrap cursor-pointer transition-all duration-300 hover:bg-purple-700 shadow-md hover:shadow-lg transform hover:translate-y-[-2px]">
+          <button onClick={handleLoadMore}
+           className="py-3 px-8 bg-purple-600 text-white rounded-button whitespace-nowrap cursor-pointer transition-all duration-300 hover:bg-purple-700 shadow-md hover:shadow-lg transform hover:translate-y-[-2px]">
             Load More Quotes
           </button>
         </div>
@@ -351,7 +1039,7 @@ const App = () => {
             </p>
           </div>
           
-          <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex flex-col items-center">
             <div className="md:w-1/2">
               <div className={`rounded-lg p-6 h-full ${darkMode ? 'bg-gray-700' : 'bg-white'} shadow-lg`}>
                 <h3 className={`text-xl font-bold mb-4 ${darkMode ? 'text-white' : 'text-gray-900'}`}>
@@ -511,6 +1199,6 @@ const App = () => {
 };
 
 // const App = () => {
-//   <Allquotes/>
+//   <quotes/>
 // }
 export default App;
